@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-  //  qputenv("QT_QPA_PLATFORM", "wayland");
-  //  qputenv("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1");
+    qputenv("QT_QPA_PLATFORM", "wayland");
+    qputenv("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1");
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
